@@ -1,0 +1,3 @@
+PulseView是一个开源逻辑分析仪工具，在Linux、Windows、Mac OS X上都可以运行。此处提供的是Windows版本。
+
+官方下载地址：https://sigrok.org/wiki/Downloads

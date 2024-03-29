@@ -1,0 +1,6 @@
+QUC4QtDesigner.zip：为Qt开发平台添加QUC SDK支持。安装后，在Qt Creator的控件列表中可以显示QUC SDK的数百个控件。
+使用方法：将QUC4QtDesigner.zip解压，可以得到四个文件（quc.lib、qucd.lib、quc.dll、qucd.dll）。将这四个文件复制到Qt的designer插件文件夹下即可完成安装。在本书中，该文件夹为：D:\Qt\Qt5.14.2\Tools\QtCreator\bin\plugins\designer\。
+
+QUC4Project.7z：如果要在Qt项目中使用QUC SDK，需要将QUC SDK的相关文件复制到Qt工程的文件夹中。在本书中是将它们复制到Qt工程下的SDK文件夹中。为简化该步骤，读者可以直接解压QUC4Project.7z，得到一个名为SDK的文件夹。文件夹内部便是已经整理好了的QUC SDK文件。将该SDK文件夹复制到Qt项目中，就可以按照书中的方法配置pro文件，然后愉快的使用QUC SDK了。
+
+注意：QUC4QtDesigner.zip和QUC4Project.7z两个文件的功能不同，请仔细分辨。
